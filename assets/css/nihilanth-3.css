@@ -1171,7 +1171,7 @@ body:not(.post-template) .post-title {
   max-width: 80px;
   max-height: 80px;
   margin-right: 0.8em;
-  border: 1px solid #BBC7CC;
+  /* border: 1px solid #BBC7CC; */
 }
 
 .author-f-page{
@@ -1181,7 +1181,7 @@ body:not(.post-template) .post-title {
   max-width: 100px;
   max-height: 100px;
   margin-right: 0.8em;
-  border: 1px solid #BBC7CC;
+  /* border: 1px solid #BBC7CC; */
 }
 
 /* list of author links - location / url */
