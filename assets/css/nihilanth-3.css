@@ -2244,6 +2244,9 @@ span.author-stats{
         width: 100%;
     }
 
+    .read-more {
+    padding: 5px 10px;
+    }
 }
 
 
