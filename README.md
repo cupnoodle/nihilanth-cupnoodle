@@ -1,5 +1,6 @@
 # Nihilanth
-Original theme : https://github.com/Salies/nihilanth-ghost-theme
+Original theme : https://github.com/Salies/nihilanth-ghost-theme  
+
 A simple, clean and responsive theme for [Ghost](https://ghost.org/), inspired by [Coding Horror](https://blog.codinghorror.com/).
 
 ![showcase](https://dl.dropboxusercontent.com/u/91728511/showcase.png)
