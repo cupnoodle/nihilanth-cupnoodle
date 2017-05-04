@@ -924,7 +924,8 @@ padding-top: 2rem;
 }
 
 .post-content img{
-  width:100%;
+  max-width:100%;
+  height: auto;
   margin-top:1rem;
   margin-bottom:1rem;
 }
