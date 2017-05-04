@@ -18,12 +18,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset "assets/css/nihilanth-3.css"}}"/>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
-    {{!Code Highlighting (highlight.js)}}
-    {{! The default style for the Nihilanth Theme is Atom One Dark, but you can change it. Check https://highlightjs.org/download/ and https://github.com/isagalaev/highlight.js/tree/master/src/styles for more info.}}
-    <link rel="stylesheet" href="{{asset "assets/css/tomorrow-night.css"}}">
-    <script src="{{asset "js/highlight.pack.js"}}"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-
+    {{!Code Highlighting (prism.js)}}
+    <link rel="stylesheet" href="{{asset "assets/css/prism-duotone-space.css"}}">
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
@@ -38,6 +34,7 @@
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
+    <script src="{{asset "js/prism.js"}}"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     {{!-- The main JavaScript file for Casper --}}
