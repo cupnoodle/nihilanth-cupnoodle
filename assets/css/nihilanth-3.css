@@ -2372,9 +2372,13 @@ body.author-template .content {
 }
 
 .res-side a{
-    color: #57A3E8;
+    color: #F6AF52;
     transition: color ease 0.2s;
     text-decoration: none;
+}
+
+.res-side a:hover{
+    text-decoration: underline;
 }
 
 .poweredby, .copyright, .credit {
